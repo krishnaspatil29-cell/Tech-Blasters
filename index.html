@@ -1,0 +1,96 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Silent Distress Monitoring System</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+header{
+    background:#1e293b;
+    padding:20px;
+    font-size:28px;
+    font-weight:bold;
+}
+.container{
+    margin-top:60px;
+}
+.card{
+    background:#1e293b;
+    width:350px;
+    margin:auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+button{
+    padding:15px 25px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    margin-top:20px;
+}
+.safe{
+    background:green;
+    color:white;
+}
+.alert{
+    background:red;
+    color:white;
+}
+.status{
+    font-size:22px;
+    margin-top:20px;
+}
+footer{
+    margin-top:80px;
+    padding:15px;
+    background:#1e293b;
+}
+</style>
+</head>
+<body>
+
+<header>
+Smart Silent Distress Monitoring System
+</header>
+
+<div class="container">
+<div class="card">
+<h2>User Safety Dashboard</h2>
+<p>Click below if emergency occurs</p>
+
+<button class="alert" onclick="sendAlert()">SEND ALERT</button>
+<br><br>
+<button class="safe" onclick="safeMode()">I AM SAFE</button>
+
+<div class="status" id="status">Status : Normal</div>
+</div>
+</div>
+
+<footer>
+Hackathon Project | Team Innovation
+</footer>
+
+<script>
+function sendAlert(){
+    document.getElementById("status").innerHTML="Status : Emergency Alert Sent!";
+    alert("Emergency Alert Sent Successfully!");
+}
+
+function safeMode(){
+    document.getElementById("status").innerHTML="Status : User Safe";
+    alert("Marked as Safe");
+}
+</script>
+
+</body>
+</html>
