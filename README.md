@@ -28,10 +28,10 @@ The Smart Silent Distress Monitoring System is an IoT-based safety device design
 - LED
 
 ## Team Members
-- Priyadarshini 
-- Nayana Thara
-- Krishna
-- Gireesh 
+- Priyadarshini S
+- Nayana Thara K M
+- Krishna Patil
+- Gireesh Y S
 
 ## Status
 Project Under Development
