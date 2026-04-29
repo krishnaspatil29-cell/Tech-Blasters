@@ -87,22 +87,6 @@ Sensors → ESP32 Controller → WiFi / GSM → Cloud Server → Caregiver Dashb
 - ThingSpeak / Firebase
 
 
-## Pin Connections
-
-| Component | ESP32 Pin |
-|----------|-----------|
-| MPU6050 SDA | GPIO21 |
-| MPU6050 SCL | GPIO22 |
-| Pulse Sensor OUT | GPIO34 |
-| SOS Button | GPIO4 |
-| Buzzer | GPIO5 |
-| LED | GPIO2 |
-| GPS TX | GPIO16 |
-| GPS RX | GPIO17 |
-| GSM TX | GPIO26 |
-| GSM RX | GPIO27 |
-
-
 ## Working Principle
 
 1. Sensors continuously collect movement and health data.  
